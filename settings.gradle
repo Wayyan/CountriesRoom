@@ -3,8 +3,12 @@ dependencyResolutionManagement {
   repositories {
     google()
     mavenCentral()
-    jcenter() // Warning: this repository is going to shut down soon
   }
 }
 rootProject.name = "Countries Room"
 include ':app'
+include ':base'
+include ':data:cache'
+include ':data:network'
+include ':data:framework'
+include ':domain'

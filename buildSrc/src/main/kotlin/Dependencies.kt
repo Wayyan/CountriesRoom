@@ -12,7 +12,6 @@ object BuildConfig {
     "$versionMajor.$versionMinor.$versionPatch"
   const val vCode =
     versionMajor * 1000000 + versionMinor * 10000 + versionPatch * 100 + versionBuild
-
 }
 
 object CommonLibs {
@@ -38,7 +37,6 @@ object CommonLibs {
   const val shape_of_views = "com.github.florent37:shapeofview:1.4.7"
 
   const val burtha = "com.aungkyawpaing.burtha:burtha-kt:1.1.3"
-
 }
 
 //region AndroidX
@@ -109,7 +107,6 @@ object AndroidXWork {
 
   const val work_runtime_ktx = "androidx.work:work-runtime-ktx:$version"
   const val work_testing = "androidx.work:work-testing:$version"
-
 }
 
 object AndroidXCore {
@@ -123,7 +120,6 @@ object AndroidXLocalBroadcastManager {
 
   const val local_broadcast_manager =
     "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0-alpha01"
-
 }
 
 object AndroidXPaging {
@@ -170,7 +166,6 @@ object Detekt {
   private const val version = "1.7.4"
 
   const val plugin = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin:$version"
-
 }
 
 object EverNoteJob {
@@ -229,7 +224,7 @@ object Kakao {
 }
 
 object Kotlin {
-  private const val version = "1.5.30"
+  private const val version = "1.4.21"
 
   const val stdblib_jdk = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$version"
   const val gradle_plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version"
@@ -328,7 +323,6 @@ object Wormhole {
   private const val version = "0.3.1"
 
   const val gradle_plugin = "com.jakewharton.wormhole:wormhole-gradle:$version"
-
 }
 
 object Realm {
@@ -337,17 +331,17 @@ object Realm {
   const val gradle_plugin = "io.realm:realm-gradle-plugin:$version"
 }
 
-object MDetect{
+object MDetect {
   private const val version = "3.2"
-  const val gradle_plugin ="myatminsoe.mdetect.android:mdetect-android:$version"
+  const val gradle_plugin = "myatminsoe.mdetect.android:mdetect-android:$version"
 }
 
-object CustomTabs{
-  private const val version="1.3.0"
-  const val gradle_plugin="androidx.browser:browser:$version"
+object CustomTabs {
+  private const val version = "1.3.0"
+  const val gradle_plugin = "androidx.browser:browser:$version"
 }
 
-object AdMob{
-  private const val version="19.7.0"
-  const val gradlePlugin="com.google.android.gms:play-services-ads:$version"
+object AdMob {
+  private const val version = "19.7.0"
+  const val gradlePlugin = "com.google.android.gms:play-services-ads:$version"
 }

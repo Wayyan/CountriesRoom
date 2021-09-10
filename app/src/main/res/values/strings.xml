@@ -1,3 +1,4 @@
 <resources>
   <string name="app_name">Countries Room</string>
+  <string name="lbl_loading">Loading Data</string>
 </resources>

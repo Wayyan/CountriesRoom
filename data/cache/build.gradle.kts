@@ -47,7 +47,10 @@ dependencies {
   androidTestImplementation(AndroidXEspresso.core)
 
   moshi()
+  room()
 
   //dagger
   daggerJvm()
+
+  daggerHilt()
 }
